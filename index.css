@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-emerald-950: #064e3b;
+  --color-emerald-900: #065f46;
+  --color-emerald-800: #064e3b;
+  --color-gold: #d4af37;
+  --color-gold-light: #f4e8c1;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+.arabic-text {
+  font-family: "Amiri", serif;
+  direction: rtl;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;500;600;700&display=swap');
